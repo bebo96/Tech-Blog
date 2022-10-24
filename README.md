@@ -15,6 +15,9 @@ CMS-style blog site, where developers can publish their blog posts and comment o
 ## Repository
 https://github.com/bebo96/employee-tracker
 
+## Deployed URL
+https://cryptic-mountain-81850.herokuapp.com/
+
 ## Contribution
 Made with ❤️ by BEBO
 
