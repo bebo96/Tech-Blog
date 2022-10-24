@@ -18,4 +18,4 @@ https://github.com/bebo96/employee-tracker
 ## Contribution
 Made with ❤️ by BEBO
 
-### ©️2022 Tech Blog
+### ©️2022 Tech Blogs
