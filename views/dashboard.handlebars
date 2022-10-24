@@ -1,4 +1,4 @@
-<section>
+<section class="create-new-post">
   <h2>Create New Post</h2>
 
   <form class="new-post-form">
@@ -6,9 +6,9 @@
       <label for="post-title">Title</label>
       <input type="text" id="post-title" name="post-title" />
     </div>
-    <div>
-      <label for="post-url">Link</label>
-      <input id="post-url" name="post-url" />
+    <div class="blog-text-area">
+      <label for="post-url">Blog</label>
+      <textarea id="post-url" name="post-url"></textarea>
     </div>
     <button type="submit" class="btn">Create</button>
   </form>
@@ -16,8 +16,8 @@
 
 {{#if posts.length}}
 <section>
-  <h2>Your Posts</h2>
-  <ol>
+  <h2 style="display:flex; justify-content:center;">Your Posts</h2>
+  <ol style="list-style: none">
     {{#each posts as |post|}}
     <li>
       {{> post-info post}}

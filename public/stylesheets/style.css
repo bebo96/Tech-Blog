@@ -28,7 +28,7 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #231010;
   border: 0;
   padding: 1%;
   color: white;
@@ -43,6 +43,7 @@ button:hover {
 }
 
 .post-list {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -134,9 +135,22 @@ main {
 
 .post .title span {
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-style: italic;
   font-size: 90%;
   color: #d9ead3;
+}
+.comments{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.post{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .edit-link {
@@ -145,15 +159,37 @@ main {
 }
 
 .upvote-btn {
-  background-color: #197d0f;
+  background-color: #231010;
   transition: background-color .1s;
+  margin-left: 10px;
 }
 
 .upvote-btn:hover {
   background-color: #1f9c13;
 }
 
+.create-new-post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit{
+  width: 100%;
+}
+
+.submit-vote-buttons{
+  display: flex; 
+  flex-direction:row; 
+  justify-content:center;
+  width: 100%;
+}
+
 .comment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 5%;
 }
 
@@ -173,8 +209,37 @@ main {
   opacity: .6;
 }
 
+.meta .text{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 .new-post-form input {
   width: 300px;
+}
+
+.new-post-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-text-area{
+  width: 100%;
+}
+
+#post-url{
+  width: 100%;
 }
 
 .edit-post-form {
