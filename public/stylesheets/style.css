@@ -156,6 +156,7 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
+  color: #231010;
 }
 
 .upvote-btn {
