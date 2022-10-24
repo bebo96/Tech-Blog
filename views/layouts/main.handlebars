@@ -4,22 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just Tech News</title>
+  <title>The Tech Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
   <div class="wrapper">
+    <h1 style="display: flex; align-items:center; justify-content:center; background-color:#231010; ">The Tech Blog</h1>
     <header>
-      <h1>
-        <a href="/">Just Tech News</a>
-      </h1>
+      
       <nav>
+        <a href="/" class="btn-no-style">Home</a>
+      
         {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
+        <a href="/dashboard" class="btn-no-style">dashboard</a>
         <button id="logout" class="btn-no-style">logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login" class="btn-no-style">login</a>
         {{/if}}
       </nav>
     </header>

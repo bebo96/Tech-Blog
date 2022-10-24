@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 body, html {
   height: 100%;
@@ -8,11 +13,12 @@ body, html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
+  background-color: #d9ead3;
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #d9ead3;
   font-weight: bold;
   transition: color .1s;
 }
@@ -75,12 +81,15 @@ form label {
 }
 
 header {
+  align-items:center; 
+  justify-content:center;
   border-bottom: 1px solid #ccc;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 0 1%;
+  height: 100px;
+  background-color: #231010;
 }
+/* #d9ead3 */
 
 header h1 {
   font-size: 1em;
@@ -97,11 +106,12 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #d9ead3;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
   margin-left: 16px;
+  margin-top: 10px;
 }
 
 .btn-no-style:hover {
@@ -123,9 +133,10 @@ main {
 }
 
 .post .title span {
+  display: flex;
   font-style: italic;
   font-size: 90%;
-  color: #7d7d7d;
+  color: #d9ead3;
 }
 
 .edit-link {
@@ -152,7 +163,8 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: #231010;
+  color: #d9ead3;
 }
 
 .comment .meta {
