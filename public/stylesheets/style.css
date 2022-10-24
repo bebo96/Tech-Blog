@@ -132,7 +132,12 @@ main {
   margin-bottom: 2%;
   line-height: 150%;
 }
-
+.title{
+  display:flex; 
+  align-items:center; 
+  justify-content:center;
+ flex-direction: column;
+}
 .post .title span {
   display: flex;
   align-items: center;
