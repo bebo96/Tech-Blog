@@ -21,4 +21,4 @@ https://cryptic-mountain-81850.herokuapp.com/
 ## Contribution
 Made with ❤️ by BEBO
 
-### ©️2022 Tech Blogs
+### ©️2022 Tech Blog
